@@ -1,3 +1,10 @@
+"""
+Leonel Hernandez, Asa Bennett, Ashley Tucker
+Dog vs Cat Classification Project
+CS-4491: Deep Learning Cyber Security
+November 22, 2020
+"""
+
 import numpy
 from keras.models import load_model
 import tkinter as tk
@@ -6,7 +13,7 @@ from tkinter import filedialog
 from PIL import ImageTk, Image
 
 
-model = load_model('CatsvsDogs_model_20epoch.h5')
+model = load_model('CatsvsDogs_model_epoch.h5')
 
 # dictionary to label all traffic signs class.
 classes = {
